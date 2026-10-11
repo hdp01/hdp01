@@ -146,6 +146,10 @@ actually depend on — designing it, shipping it, then finding out where it brea
 | 🔐 **Security & Privacy** | OWASP hardening, PII scrubbing, rate limiting, consent and data-protection compliance |
 | 🐛 **Open Source** | Reproducing upstream bugs, root-cause analysis and small, well-tested fixes |
 
+<br>
+
+<div align="center">
+
 ### Reproduce · Fix · Prove · Ship
 
 [Email](mailto:pashineharsh01@gmail.com) ·
