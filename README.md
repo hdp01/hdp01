@@ -58,80 +58,19 @@ actually depend on — designing it, shipping it, then finding out where it brea
 
 ## 🛠 Tech Stack
 
-<table>
-<tr>
-<td valign="top" width="33%">
+**Languages & Databases:** Python, C++, Bash, PostgreSQL, MySQL, DynamoDB, Redis
 
-### Languages
+**AI / LLM:** Claude (Tool Use, Function Calling, Prompt Engineering), AI Agents, RAG Pipelines, LLM APIs, Token Optimization, AWS Bedrock, MLflow
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+**Frameworks & OS:** FastAPI, Next.js, Linux
 
-</td>
-<td valign="top" width="33%">
+**Cloud & DevOps:** AWS (EC2, S3, IAM, Lambda, ECS, ECR, RDS, SQS, SES, CloudFront, WAF), Azure, Docker, Kubernetes, Terraform, Ansible, GitHub Actions, Jenkins, Nginx, Caddy
 
-### AI & LLM
+**Observability:** Prometheus, Grafana
 
-![Claude](https://img.shields.io/badge/-Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![Bedrock](https://img.shields.io/badge/-AWS%20Bedrock-232F3E?style=flat-square)
-![MLflow](https://img.shields.io/badge/-MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
+**Core CS:** Object-Oriented Programming, DBMS, Operating Systems, Computer Networks, System Design
 
-**AI Agents · Tool Use · Function Calling · RAG · Prompt Engineering · Token Optimization**
-
-</td>
-<td valign="top" width="33%">
-
-### Backend & Web
-
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Nginx](https://img.shields.io/badge/-Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![Caddy](https://img.shields.io/badge/-Caddy-1F88C0?style=flat-square&logo=caddy&logoColor=white)
-
-**REST APIs · Reverse Proxies · TLS**
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-### Cloud
-
-![AWS](https://img.shields.io/badge/-AWS-FF9900?style=flat-square)
-![Azure](https://img.shields.io/badge/-Azure-0072C6?style=flat-square)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-
-**EC2 · Lambda · ECS · ECR · S3 · RDS · SQS · SES · CloudFront · WAF · IAM**
-
-</td>
-<td valign="top">
-
-### DevOps & IaC
-
-![Terraform](https://img.shields.io/badge/-Terraform-5835CC?style=flat-square&logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Ansible](https://img.shields.io/badge/-Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-
-</td>
-<td valign="top">
-
-### Data & Observability
-
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/-DynamoDB-4053D6?style=flat-square)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-
-</td>
-</tr>
-</table>
+**Certifications:** AWS Certified Solutions Architect – Associate, AWS Certified AI Practitioner
 
 <br>
 
