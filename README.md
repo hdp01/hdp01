@@ -151,19 +151,6 @@ and before/after evidence.
 | 🔐 **Security & Privacy** | OWASP hardening, PII scrubbing, rate limiting, consent and data-protection compliance |
 | 🐛 **Open Source** | Reproducing upstream bugs, root-cause analysis and small, well-tested fixes |
 
-<br>
-
-## 📌 Featured Projects
-
-| Project | Description |
-|---|---|
-| **[incident-response-bot](https://github.com/hdp01/incident-response-bot)** | SRE assistant that watches CloudWatch, asks Bedrock for a root cause, and posts remediation to Slack in under a minute — scrubbing PII before anything leaves the account |
-| **[multi-cloud-deployment](https://github.com/hdp01/multi-cloud-deployment)** | Terraform orchestrating managed Kubernetes across AWS and Azure behind a self-configuring Nginx gateway with failover and cross-cloud discovery |
-| **[azure-aws-sync-dwbi](https://github.com/hdp01/azure-aws-sync-dwbi)** | Cross-cloud pipeline: S3 upload triggers a containerised Lambda, lands CSVs in ADLS Gen2, then Data Factory merges into Azure SQL |
-| **[nova-cost-intelligence](https://github.com/hdp01/nova-cost-intelligence)** | FinOps suite using Nova Micro to explain *why* an AWS bill moved, with waste prioritisation and executive summaries |
-
-<br>
-
 ### Reproduce · Fix · Prove · Ship
 
 [Email](mailto:pashineharsh01@gmail.com) ·
