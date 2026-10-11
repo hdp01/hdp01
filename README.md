@@ -1,75 +1,185 @@
+<div align="center">
+
+# Hi, I'm Harsh 👋
+
+### AI Developer · Agents & LLM Tooling · Cloud & DevOps
+
+B.Tech Data Science, Shri Ramdeobaba College of Engineering and Management, Nagpur
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsh-pashine-434ab4223/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pashineharsh01@gmail.com)
+[![AWS Certified](https://img.shields.io/badge/AWS%20Certified-SAA%20%C2%B7%20AI%20Practitioner-232F3E?style=for-the-badge)](https://github.com/hdp01)
+
+</div>
+
 ```console
 $ whoami
 harsh pashine — b.tech data science, rcoem nagpur (2024–27)
 
 $ cat ~/.now
 AI Developer Intern @ CyberSmithSecure              aug 2026 →
-  claude tool-use pipelines over messy, large datasets
-  archive recovery · zero-dependency search · owasp hardening
-  ships as a container stack behind nginx + automated tls
 
 $ whatidobest
-the infrastructure around a model, not the model itself
+ai agents and llm tooling — and the infrastructure that runs them
 ```
 
-### `$ gh pr list --author @me --state merged`
+<br>
 
-| repo | | |
-|---|---|---|
-| **aws/aws-cdk** | [#38888](https://github.com/aws/aws-cdk/pull/38888) | corrected the documented default for `arnFormat` |
-| **openchamber** | [#4468](https://github.com/openchamber/openchamber/pull/4468) | restored window dragging on the session tab strip |
-| **openchamber** | [#4406](https://github.com/openchamber/openchamber/pull/4406) | stopped the find panel covering the first lines |
-| **openchamber** | [#4409](https://github.com/openchamber/openchamber/pull/4409) | lint fix that unblocked every open PR in the repo |
-| **openchamber** | [#3903](https://github.com/openchamber/openchamber/pull/3903) | skipped unresolvable inline file mentions on send |
-| **openchamber** | [#3224](https://github.com/openchamber/openchamber/pull/3224) | handled `XDG_CACHE_HOME` for remote bun installs |
-| **floci-io/floci** | [#3769](https://github.com/floci-io/floci/pull/3769) | documented ten EC2 ops missing from the action table |
+## About Me
 
-```console
-$ gh issue list --author @me | wc -l
-7   # reproduced, traced to a line, then written up
-```
+I build **AI agents and LLM-powered tooling**, along with the **cloud infrastructure
+that runs them reliably**. I like taking a system from idea to something people can
+actually depend on — designing it, shipping it, then finding out where it breaks.
 
-Confirmed by maintainers and picked up by other contributors in
-[mlflow](https://github.com/mlflow/mlflow/issues/26435) and
-[strix](https://github.com/usestrix/strix/issues/1458). Still open upstream in
-[n8n](https://github.com/n8n-io/n8n/pull/37351),
-[aws-cdk](https://github.com/aws/aws-cdk/pull/38860) and a few others.
+- 🤖 Building **agentic systems** — tool use, function calling, multi-step planning, token budgeting
+- 🌱 Going deeper on **AI agents, RAG pipelines and MLOps**
+- ☁️ Designing on **AWS** — serverless, containers and infrastructure as code
+- 🐛 Contributing **upstream to open source**, mostly by reproducing bugs and sending small, well-tested fixes
+- 💬 Ask me about **Python, LLM tooling, AWS architecture, Terraform or Docker**
 
-### `$ ls ~/projects`
+<br>
 
-**[incident-response-bot/](https://github.com/hdp01/incident-response-bot)**
-polls cloudwatch, asks bedrock for a root cause, posts the fix to slack in
-under a minute — scrubbing PII before anything leaves the account
+## 🌍 Open Source
 
-**[multi-cloud-deployment/](https://github.com/hdp01/multi-cloud-deployment)**
-terraform running managed kubernetes on aws *and* azure, behind a
-self-configuring nginx gateway with failover and cross-cloud discovery
+I contribute by reading unfamiliar codebases, reproducing reported bugs against the
+latest main, tracing them to a specific line, and sending focused fixes with tests
+and before/after evidence.
 
-**[azure-aws-sync-dwbi/](https://github.com/hdp01/azure-aws-sync-dwbi)**
-s3 upload → containerised lambda → adls gen2 → data factory merge into azure sql
+| Project | What I worked on |
+|---|---|
+| **[AWS CDK](https://github.com/aws/aws-cdk)** | Corrected misleading API documentation; fixed DynamoDB global-table encryption rendering, with an integration test and snapshots |
+| **[OpenChamber](https://github.com/openchamber/openchamber)** | Six merged fixes across the editor, chat and desktop shell — window drag regions, find-panel overlap, remote install paths, and a lint break that was blocking every open PR |
+| **[MLflow](https://github.com/mlflow/mlflow)** | Reported signature-inference and schema-enforcement bugs that silently corrupt model input; both confirmed by maintainers |
+| **[Strix](https://github.com/usestrix/strix)** | Found scan-report and CLI defects where results were silently wrong; fixed plain-text refusal handling in the agent execution loop |
+| **[n8n](https://github.com/n8n-io/n8n)** | Added string helpers to the workflow expression language |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | Fixed release-validation payload verification across partial CI retries |
+| **[graph-explorer](https://github.com/aws/graph-explorer)** | Test coverage for default canvas styling of untyped vertices |
+| **[floci](https://github.com/floci-io/floci)** | Documented EC2 operations missing from the supported-actions table |
 
-**[nova-cost-intelligence/](https://github.com/hdp01/nova-cost-intelligence)**
-finops suite that explains *why* the bill moved, not just what it was
+> Understand the architecture first, reproduce the issue, make the smallest change
+> that fixes it, prove it with a test, and show the before and after.
 
-```console
-$ cat ~/.toolbox
-lang      python · c++ · bash
-web       fastapi · next.js
-data      postgresql · mysql · dynamodb · redis
-cloud     aws — ec2 s3 iam lambda ecs ecr rds sqs ses cloudfront waf
-          azure
-infra     terraform · docker · kubernetes · ansible
-ci/cd     github actions · jenkins
-edge      nginx · caddy · linux
-observe   prometheus · grafana
-llm       claude tool use & function calling · rag · token budgeting
+<br>
 
-$ cat ~/.certs
-aws certified solutions architect – associate
-aws certified ai practitioner
-```
+## 🛠 Tech Stack
 
-### `$ cat ~/.contact`
+<table>
+<tr>
+<td valign="top" width="33%">
 
-[email](mailto:pashineharsh01@gmail.com) ·
-[linkedin](https://www.linkedin.com/in/harsh-pashine-434ab4223/)
+### Languages
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+</td>
+<td valign="top" width="33%">
+
+### AI & LLM
+
+![Claude](https://img.shields.io/badge/-Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![Bedrock](https://img.shields.io/badge/-AWS%20Bedrock-232F3E?style=flat-square)
+![MLflow](https://img.shields.io/badge/-MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white)
+
+**AI Agents · Tool Use · Function Calling · RAG · Prompt Engineering · Token Optimization**
+
+</td>
+<td valign="top" width="33%">
+
+### Backend & Web
+
+![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Nginx](https://img.shields.io/badge/-Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Caddy](https://img.shields.io/badge/-Caddy-1F88C0?style=flat-square&logo=caddy&logoColor=white)
+
+**REST APIs · Reverse Proxies · TLS**
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### Cloud
+
+![AWS](https://img.shields.io/badge/-AWS-FF9900?style=flat-square)
+![Azure](https://img.shields.io/badge/-Azure-0072C6?style=flat-square)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+**EC2 · Lambda · ECS · ECR · S3 · RDS · SQS · SES · CloudFront · WAF · IAM**
+
+</td>
+<td valign="top">
+
+### DevOps & IaC
+
+![Terraform](https://img.shields.io/badge/-Terraform-5835CC?style=flat-square&logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Ansible](https://img.shields.io/badge/-Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+
+</td>
+<td valign="top">
+
+### Data & Observability
+
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/-DynamoDB-4053D6?style=flat-square)
+![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## 🚀 What I Build
+
+| Area | Work |
+|---|---|
+| 🤖 **AI Agents** | Tool-use and function-calling pipelines, multi-step planning, token budgeting and cost control |
+| 🧠 **LLM Applications** | RAG pipelines, document extraction, batch processing over large unstructured datasets |
+| ☁️ **Cloud Architecture** | Serverless and container workloads on AWS, multi-cloud networking, infrastructure as code |
+| 🔁 **Deployment & SRE** | Progressive delivery with automated rollback, CI/CD, health checks and incident response |
+| 🔐 **Security & Privacy** | OWASP hardening, PII scrubbing, rate limiting, consent and data-protection compliance |
+| 🐛 **Open Source** | Reproducing upstream bugs, root-cause analysis and small, well-tested fixes |
+
+<br>
+
+## 📌 Featured Projects
+
+| Project | Description |
+|---|---|
+| **[incident-response-bot](https://github.com/hdp01/incident-response-bot)** | SRE assistant that watches CloudWatch, asks Bedrock for a root cause, and posts remediation to Slack in under a minute — scrubbing PII before anything leaves the account |
+| **[multi-cloud-deployment](https://github.com/hdp01/multi-cloud-deployment)** | Terraform orchestrating managed Kubernetes across AWS and Azure behind a self-configuring Nginx gateway with failover and cross-cloud discovery |
+| **[azure-aws-sync-dwbi](https://github.com/hdp01/azure-aws-sync-dwbi)** | Cross-cloud pipeline: S3 upload triggers a containerised Lambda, lands CSVs in ADLS Gen2, then Data Factory merges into Azure SQL |
+| **[nova-cost-intelligence](https://github.com/hdp01/nova-cost-intelligence)** | FinOps suite using Nova Micro to explain *why* an AWS bill moved, with waste prioritisation and executive summaries |
+
+<br>
+
+## 📊 GitHub Activity
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=hdp01&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hdp01&theme=github_dark&hide_border=true&layout=compact" />
+
+</div>
+
+<br>
+
+<div align="center">
+
+### Reproduce · Fix · Prove · Ship
+
+[Email](mailto:pashineharsh01@gmail.com) ·
+[LinkedIn](https://www.linkedin.com/in/harsh-pashine-434ab4223/)
+
+</div>
