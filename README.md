@@ -164,19 +164,6 @@ and before/after evidence.
 
 <br>
 
-## 📊 GitHub Activity
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=hdp01&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hdp01&theme=github_dark&hide_border=true&layout=compact" />
-
-</div>
-
-<br>
-
-<div align="center">
-
 ### Reproduce · Fix · Prove · Ship
 
 [Email](mailto:pashineharsh01@gmail.com) ·
