@@ -1,22 +1,72 @@
-# 💫 About Me:
-I am a B.Tech Data Science student and Information Technology diploma holder dedicated to building and managing end-to-end cloud and AI-driven solutions. I combine my expertise in architecting resilient, **AI-driven observability pipelines** with a deep focus on **SRE and DevOps practices**, engineering automated deployment pipelines and **real-time anomaly detection systems**. I am driven by an end-to-end perspective, focusing on creating high-performance, scalable, secure, and operationally excellent infrastructure.
+## Harsh Pashine
 
-## 🌐 Socials:
-[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:pashineharsh01@gmail.com)
-[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harsh-pashine-434ab4223/)
+B.Tech Data Science student in Nagpur, India. I work on the infrastructure side of
+AI systems — the pipelines, deployment, and reliability work that sits around a
+model rather than the model itself.
 
-# 💻 Tech Stack:
-### **Development & AI**
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-
-### **Cloud & DevOps**
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white) ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
-
-### **Databases & Tools**
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-
-# 🏅 Certifications:
-![AWS Certified Solutions Architect – Associate](https://img.shields.io/badge/AWS%20Certified%20Solutions%20Architect%20–%20Associate-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white) ![AWS Certified AI Practitioner](https://img.shields.io/badge/AWS%20Certified%20AI%20Practitioner-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+Right now I am an AI Developer Intern at **CyberSmithSecure**, building Python
+tooling around Claude's tool-use APIs: batch recovery pipelines over large
+archive datasets, a dependency-free search engine, and the hardening and
+container deployment that ships it all.
 
 ---
-[![](https://visitcount.itsvg.in/api?id=hdp01&icon=0&color=0)](https://visitcount.itsvg.in)
+
+### Open source
+
+I spend a lot of time reading other people's codebases, reproducing bugs, and
+sending small fixes upstream. Merged so far:
+
+| | |
+|---|---|
+| [aws/aws-cdk#38888](https://github.com/aws/aws-cdk/pull/38888) | Corrected the documented default for `arnFormat` |
+| [openchamber#4468](https://github.com/openchamber/openchamber/pull/4468) | Restored window dragging on the session tab strip |
+| [openchamber#4406](https://github.com/openchamber/openchamber/pull/4406) | Stopped the Find panel covering the first lines of a document |
+| [openchamber#4409](https://github.com/openchamber/openchamber/pull/4409) | Lint fix that unblocked every open PR in the repo |
+| [openchamber#3903](https://github.com/openchamber/openchamber/pull/3903) | Skipped unresolvable inline file mentions at send time |
+| [openchamber#3224](https://github.com/openchamber/openchamber/pull/3224) | Handled `XDG_CACHE_HOME` for remote bun installs |
+| [floci-io/floci#3769](https://github.com/floci-io/floci/pull/3769) | Documented ten EC2 operations missing from the action table |
+
+I also file bugs when I cannot fix them myself — reports in
+[MLflow](https://github.com/mlflow/mlflow/issues/26435) and
+[Strix](https://github.com/usestrix/strix/issues/1458) have been confirmed by
+maintainers and picked up by other contributors. Open work sits in
+[n8n](https://github.com/n8n-io/n8n/pull/37351), [AWS
+CDK](https://github.com/aws/aws-cdk/pull/38860) and a few other projects.
+
+### Projects
+
+**[incident-response-bot](https://github.com/hdp01/incident-response-bot)** —
+polls CloudWatch for errors, asks Amazon Bedrock for a root cause, and posts a
+remediation summary to Slack within a minute. Scrubs PII before anything leaves
+the account.
+
+**[nova-cost-intelligence](https://github.com/hdp01/nova-cost-intelligence)** —
+AWS cost analysis that goes past the billing dashboard, using Nova Micro and
+Boto3 to explain *why* a bill moved.
+
+**[multi-cloud-deployment](https://github.com/hdp01/multi-cloud-deployment)** —
+Terraform orchestrating managed Kubernetes across AWS and Azure, behind a
+self-configuring Nginx gateway doing failover, passive health checks and
+cross-cloud service discovery.
+
+**[azure-aws-sync-dwbi](https://github.com/hdp01/azure-aws-sync-dwbi)** —
+cross-cloud pipeline: an S3 upload fires a container-based Lambda that lands
+CSVs in ADLS Gen2, then a Data Factory run merges them into Azure SQL.
+
+### Tools I reach for
+
+`Python` `C++` `Bash` · `FastAPI` · `PostgreSQL` `MySQL` `DynamoDB`
+
+AWS (EC2, Lambda, ECS, S3, RDS, SQS, CloudFront, WAF, IAM) · `Terraform`
+`Docker` `Ansible` `GitHub Actions` · `Nginx` `Caddy` · `Linux`
+
+Claude tool use and function calling, RAG pipelines, token budgeting
+
+### Certifications
+
+AWS Certified Solutions Architect – Associate · AWS Certified AI Practitioner
+
+---
+
+[Email](mailto:pashineharsh01@gmail.com) ·
+[LinkedIn](https://www.linkedin.com/in/harsh-pashine-434ab4223/)
