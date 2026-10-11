@@ -150,8 +150,6 @@ actually depend on — designing it, shipping it, then finding out where it brea
 
 <div align="center">
 
-### Reproduce · Fix · Prove · Ship
-
 [Email](mailto:pashineharsh01@gmail.com) ·
 [LinkedIn](https://www.linkedin.com/in/harsh-pashine-434ab4223/)
 
