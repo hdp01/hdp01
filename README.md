@@ -17,7 +17,7 @@ $ whoami
 harsh pashine — b.tech data science, rcoem nagpur (2024–27)
 
 $ cat ~/.now
-AI Developer Intern @ CyberSmithSecure              aug 2026 →
+AI Developer Intern @ CyberSmithSecure
 
 $ whatidobest
 ai agents and llm tooling — and the infrastructure that runs them
