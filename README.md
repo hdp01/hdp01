@@ -41,23 +41,18 @@ actually depend on — designing it, shipping it, then finding out where it brea
 
 ## 🌍 Open Source
 
-I contribute by reading unfamiliar codebases, reproducing reported bugs against the
-latest main, tracing them to a specific line, and sending focused fixes with tests
-and before/after evidence.
+<div align="center">
 
-| Project | What I worked on |
-|---|---|
-| **[AWS CDK](https://github.com/aws/aws-cdk)** | Corrected misleading API documentation; fixed DynamoDB global-table encryption rendering, with an integration test and snapshots |
-| **[OpenChamber](https://github.com/openchamber/openchamber)** | Six merged fixes across the editor, chat and desktop shell — window drag regions, find-panel overlap, remote install paths, and a lint break that was blocking every open PR |
-| **[MLflow](https://github.com/mlflow/mlflow)** | Reported signature-inference and schema-enforcement bugs that silently corrupt model input; both confirmed by maintainers |
-| **[Strix](https://github.com/usestrix/strix)** | Found scan-report and CLI defects where results were silently wrong; fixed plain-text refusal handling in the agent execution loop |
-| **[n8n](https://github.com/n8n-io/n8n)** | Added string helpers to the workflow expression language |
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | Fixed release-validation payload verification across partial CI retries |
-| **[graph-explorer](https://github.com/aws/graph-explorer)** | Test coverage for default canvas styling of untyped vertices |
-| **[floci](https://github.com/floci-io/floci)** | Documented EC2 operations missing from the supported-actions table |
+[![AWS CDK](https://img.shields.io/badge/aws--cdk-1f2328?style=for-the-badge)](https://github.com/aws/aws-cdk)
+[![OpenChamber](https://img.shields.io/badge/openchamber-1f2328?style=for-the-badge)](https://github.com/openchamber/openchamber)
+[![MLflow](https://img.shields.io/badge/mlflow-1f2328?style=for-the-badge)](https://github.com/mlflow/mlflow)
+[![Strix](https://img.shields.io/badge/strix-1f2328?style=for-the-badge)](https://github.com/usestrix/strix)
+[![n8n](https://img.shields.io/badge/n8n-1f2328?style=for-the-badge)](https://github.com/n8n-io/n8n)
+[![OpenClaw](https://img.shields.io/badge/openclaw-1f2328?style=for-the-badge)](https://github.com/openclaw/openclaw)
+[![graph-explorer](https://img.shields.io/badge/graph--explorer-1f2328?style=for-the-badge)](https://github.com/aws/graph-explorer)
+[![floci](https://img.shields.io/badge/floci-1f2328?style=for-the-badge)](https://github.com/floci-io/floci)
 
-> Understand the architecture first, reproduce the issue, make the smallest change
-> that fixes it, prove it with a test, and show the before and after.
+</div>
 
 <br>
 
