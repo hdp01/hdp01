@@ -62,7 +62,7 @@ actually depend on — designing it, shipping it, then finding out where it brea
 
 **AI / LLM:** Claude (Tool Use, Function Calling, Prompt Engineering), AI Agents, RAG Pipelines, LLM APIs, Token Optimization, AWS Bedrock, MLflow
 
-**Frameworks & OS:** FastAPI, Next.js, Linux
+**Frameworks & OS:** FastAPI, Linux
 
 **Cloud & DevOps:** AWS (EC2, S3, IAM, Lambda, ECS, ECR, RDS, SQS, SES, CloudFront, WAF), Azure, Docker, Kubernetes, Terraform, Ansible, GitHub Actions, Jenkins, Nginx, Caddy
 
